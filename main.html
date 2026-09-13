@@ -1,11 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="顯卡價格上漲趨勢，以及 NVIDIA 與 AMD 顯卡產品線的簡單介紹。">
+    <title>顯卡價格觀察｜40 系列與 50 系列為何變貴？</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+
+        :root {
+            --ink: #17211b;
+            --muted: #66746c;
+            --paper: #f4f1e8;
+            --cream: #fffdf7;
+            --lime: #d9ed65;
+            --orange: #f16d4f;
+            --line: #d7d8c8;
+            --shadow: 0 18px 45px rgba(38, 47, 37, .10);
+        }
+
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--paper);
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.7;
+        }
+
+        a { color: inherit; text-decoration: none; }
+        .wrap { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
+        .topbar {
+            border-bottom: 1px solid var(--line);
+            background: rgba(244, 241, 232, .86);
+            backdrop-filter: blur(10px);
+        }
+        .nav { display: flex; align-items: center; justify-content: space-between; min-height: 74px; }
+        .brand { display: flex; align-items: center; gap: 12px; font-weight: 900; letter-spacing: .08em; }
+        .brand-mark { display: grid; place-items: center; width: 35px; height: 35px; background: var(--ink); color: var(--lime); font-family: 'Barlow Condensed', sans-serif; font-size: 20px; transform: rotate(-5deg); }
+        .nav-links { display: flex; gap: 28px; color: var(--muted); font-size: 14px; }
+        .nav-links a:hover { color: var(--ink); }
+
+        .hero { padding: 76px 0 88px; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; width: 340px; height: 340px; right: -120px; top: -80px; border: 1px solid #c9cfaa; border-radius: 50%; }
+        .hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 72px; align-items: end; }
+        .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--orange); font-size: 13px; font-weight: 900; letter-spacing: .14em; }
+        .eyebrow::before { content: ''; width: 26px; height: 3px; background: var(--orange); }
+        h1, h2, h3, p { margin-top: 0; }
+        h1 { max-width: 710px; margin-bottom: 24px; font-size: clamp(3.3rem, 8vw, 7.2rem); line-height: .98; letter-spacing: -.075em; font-weight: 900; }
+        h1 em { color: var(--orange); font-style: normal; }
+        .intro { max-width: 590px; color: var(--muted); font-size: 17px; }
+        .hero-note { border-left: 2px solid var(--orange); padding-left: 22px; }
+        .hero-note strong { display: block; margin-bottom: 12px; font-family: 'Barlow Condensed', sans-serif; font-size: 46px; line-height: 1; }
+        .hero-note p { color: var(--muted); font-size: 14px; }
+
+        .ticker { background: var(--ink); color: var(--cream); overflow: hidden; }
+        .ticker-inner { display: flex; justify-content: space-between; gap: 20px; padding: 17px 0; font-family: 'Barlow Condensed', sans-serif; letter-spacing: .08em; }
+        .ticker b { color: var(--lime); font-weight: 600; }
+
+        section { padding: 92px 0; }
+        .section-head { display: flex; justify-content: space-between; gap: 30px; align-items: end; margin-bottom: 35px; }
+        .section-head h2 { max-width: 540px; margin-bottom: 0; font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1.08; letter-spacing: -.06em; }
+        .section-head p { max-width: 340px; margin-bottom: 0; color: var(--muted); font-size: 14px; }
+        .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+        .card { background: var(--cream); border: 1px solid var(--line); padding: 31px; box-shadow: var(--shadow); }
+        .card.nv { border-top: 5px solid #79b94a; }
+        .card.amd { border-top: 5px solid var(--orange); }
+        .card-tag { color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+        .card h3 { margin: 13px 0 10px; font-size: 30px; letter-spacing: -.04em; }
+        .card p { color: var(--muted); font-size: 14px; }
+        .feature-list { display: grid; gap: 10px; margin: 22px 0 0; padding: 0; list-style: none; font-size: 14px; }
+        .feature-list li { padding-top: 10px; border-top: 1px solid var(--line); }
+        .feature-list li::before { content: '＋'; margin-right: 8px; color: var(--orange); font-weight: 900; }
+
+        .price-section { background: #e8edc9; }
+        .price-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        .price-card { min-height: 250px; padding: 25px; border: 1px solid #cbd19c; background: rgba(255, 253, 247, .58); }
+        .price-card.hot { background: var(--ink); color: var(--cream); border-color: var(--ink); }
+        .series { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 700; }
+        .price-card h3 { margin: 30px 0 8px; font-size: 26px; letter-spacing: -.04em; }
+        .price-card p { margin-bottom: 0; color: var(--muted); font-size: 14px; }
+        .hot p { color: #bdc6b8; }
+        .arrow { display: inline-block; color: var(--orange); font-family: 'Barlow Condensed', sans-serif; font-size: 32px; }
+
+        .reasons { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; }
+        .reasons h2 { max-width: 340px; margin: 0; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.08; letter-spacing: -.06em; }
+        .reason-list { border-top: 1px solid var(--line); }
+        .reason { display: grid; grid-template-columns: 48px 1fr; gap: 15px; padding: 19px 0; border-bottom: 1px solid var(--line); }
+        .reason-number { color: var(--orange); font-family: 'Barlow Condensed', sans-serif; font-size: 24px; }
+        .reason h3 { margin-bottom: 3px; font-size: 17px; }
+        .reason p { margin: 0; color: var(--muted); font-size: 14px; }
+
+        .guide { background: var(--orange); color: var(--cream); }
+        .guide-inner { display: flex; align-items: center; justify-content: space-between; gap: 35px; }
+        .guide h2 { max-width: 590px; margin-bottom: 0; font-size: clamp(2rem, 5vw, 4.5rem); line-height: 1; letter-spacing: -.07em; }
+        .guide-copy { max-width: 340px; color: #ffe6dc; font-size: 14px; }
+        .guide-copy strong { display: block; color: var(--cream); font-size: 16px; margin-bottom: 8px; }
+        footer { padding: 30px 0; color: var(--muted); font-size: 12px; }
+        footer .wrap { display: flex; justify-content: space-between; gap: 20px; }
+
+        @media (max-width: 760px) {
+            .wrap { width: min(100% - 28px, 600px); }
+            .nav-links { display: none; }
+            .hero { padding: 55px 0 65px; }
+            .hero-grid, .reasons { grid-template-columns: 1fr; gap: 36px; }
+            h1 { font-size: clamp(3.1rem, 16vw, 5rem); }
+            .ticker-inner { flex-direction: column; gap: 4px; }
+            section { padding: 65px 0; }
+            .section-head, .guide-inner { display: block; }
+            .section-head p, .guide-copy { margin-top: 20px; }
+            .cards, .price-grid { grid-template-columns: 1fr; }
+            .price-card { min-height: auto; }
+            footer .wrap { display: block; }
+            footer span { display: block; margin-top: 8px; }
+        }
+    </style>
 </head>
 <body>
-    <h1>你好</h1> 
+    <header class="topbar">
+        <nav class="nav wrap" aria-label="主要導覽">
+            <a class="brand" href="#top"><span class="brand-mark">GPU</span> 顯卡價格觀察</a>
+            <div class="nav-links"><a href="#brands">品牌比較</a><a href="#series">系列價格</a><a href="#why">漲價原因</a></div>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-grid wrap">
+                <div>
+                    <div class="eyebrow">HARDWARE MARKET BRIEF</div>
+                    <h1>顯卡，<br>為什麼又<em>變貴了？</em></h1>
+                    <p class="intro">從 NVIDIA 的 RTX 30、40、50 系列，到 AMD 的 Radeon 產品線，一次看懂挖礦熱潮、AI 需求與供應鏈，如何把顯卡價格推上去。</p>
+                </div>
+                <div class="hero-note">
+                    <strong>真正的價格元兇</strong>
+                    <p>挖礦曾製造顯卡搶購潮，AI 又把 GPU 與先進封裝需求推向新高。以下內容以市場趨勢為主，適合用來建立選購方向。</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="ticker"><div class="ticker-inner wrap"><span>NVIDIA × AMD / GPU PRICE WATCH</span><span><b>核心觀察</b> 挖礦退潮了，AI 需求接棒了</span></div></div>
+
+        <section id="brands">
+            <div class="section-head wrap"><h2>兩家主流顯卡，<br>路線其實不一樣。</h2><p>選顯卡不只看跑分，也要看軟體功能、功耗、遊戲類型與預算。</p></div>
+            <div class="cards wrap">
+                <article class="card nv">
+                    <span class="card-tag">TEAM GREEN / NVIDIA</span>
+                    <h3>GeForce RTX</h3>
+                    <p>NVIDIA 以 CUDA 生態系、光線追蹤與 AI 功能建立優勢，DLSS 影像升頻也讓高解析度遊戲更容易維持流暢度。</p>
+                    <ul class="feature-list"><li>光線追蹤與 DLSS 生態成熟</li><li>創作者、AI 與專業軟體支援廣</li><li>熱門型號需求高，價格較硬</li></ul>
+                </article>
+                <article class="card amd">
+                    <span class="card-tag">TEAM RED / AMD</span>
+                    <h3>Radeon RX</h3>
+                    <p>AMD Radeon 常以較大的顯存與競爭力價格切入，適合重視傳統遊戲效能、解析度與長期容量的玩家。</p>
+                    <ul class="feature-list"><li>同級常見較大的顯存配置</li><li>光柵化遊戲效能具競爭力</li><li>產品定價與促銷彈性較大</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="price-section" id="series">
+            <div class="section-head wrap"><h2>不同世代都受影響，<br>只是原因不一樣。</h2><p>30 系列留下挖礦時代的記憶，40/50 系列則遇上 AI、供應鏈與新品需求的多重推力。</p></div>
+            <div class="price-grid wrap">
+                <article class="price-card"><span class="series">RTX 30 SERIES</span><h3>挖礦餘波</h3><p>30 系列曾在挖礦高峰被大量掃貨，二手卡、庫存與玩家需求反覆變動，讓價格一度遠離建議售價。</p><span class="arrow">↗</span></article>
+                <article class="price-card"><span class="series">RTX 40 SERIES</span><h3>庫存與熱門卡款</h3><p>40 系列進入產品交替期後，部分中高階型號可能因庫存變化、停產預期或需求集中而維持高價。</p><span class="arrow">↗</span></article>
+                <article class="price-card hot"><span class="series">RTX 50 SERIES</span><h3>AI 新品溢價</h3><p>新架構、AI 與光線追蹤效能提升，加上初期供貨有限，熱門卡常出現高於建議售價的通路價格。</p><span class="arrow">↗</span></article>
+                <article class="price-card"><span class="series">AMD RADEON RX</span><h3>顯存與供貨成本</h3><p>AMD 也受到 GDDR 顯存、晶圓、封裝與物流成本影響；高顯存配置與供貨量變化，會把部分 Radeon 價格往上推。</p><span class="arrow">↗</span></article>
+            </div>
+        </section>
+
+        <section id="why">
+            <div class="reasons wrap">
+                <h2>價格上漲的元兇，<br>不只在顯卡盒子裡。</h2>
+                <div class="reason-list">
+                    <article class="reason"><div class="reason-number">01</div><div><h3>挖礦：第一次大規模搶卡</h3><p>加密貨幣挖礦曾讓大量顯卡離開遊戲市場，礦工掃貨、黃牛囤貨與後續二手拋售，形成劇烈的價格循環。</p></div></article>
+                    <article class="reason"><div class="reason-number">02</div><div><h3>AI：GPU 需求再次爆發</h3><p>生成式 AI 與資料中心需要大量 GPU，廠商的高階晶片與顯存資源被優先分配，消費級產品也受到市場預期影響。</p></div></article>
+                    <article class="reason"><div class="reason-number">03</div><div><h3>供應鏈：晶圓、顯存、封裝一起漲</h3><p>先進製程、HBM/GDDR 記憶體、先進封裝與物流都有限，任何一個環節吃緊，都可能推高整張卡的成本。</p></div></article>
+                    <article class="reason"><div class="reason-number">04</div><div><h3>通路與新品效應</h3><p>新品上市、供貨有限、匯率與代理商定價，會把原本的成本壓力再放大成玩家看到的零售價。</p></div></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="guide"><div class="guide-inner wrap"><h2>別只追最新，<br>先看你的遊戲與預算。</h2><div class="guide-copy"><strong>購買小提醒</strong>比較「實際通路價」與同級效能，再決定是否為新功能支付溢價。價格波動時，等待促銷或選擇上一代往往更理性。</div></div></section>
+    </main>
+
+    <footer><div class="wrap"><strong>顯卡價格觀察 / 2026</strong><span>內容為概略市場介紹，實際價格請以購買當下通路資訊為準。</span></div></footer>
 </body>
 </html>
