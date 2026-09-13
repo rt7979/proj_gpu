@@ -1,1 +1,76 @@
 這是main
+
+
+
+proj_gpu 架構圖
+
+
+
+GitHub proj_gpu
+║
+╠═══ main  -- 專案主要內容、程式碼
+║
+╚═══ web   -- 展示網頁
+
+
+
+proj_gpu(main)
+║
+╠═══ .streamlit/
+║    ╠═══ config.toml  --- # ⚙️ 告訴 Streamlit 啟用靜態資料夾功能（非常重要！）。
+║    ╚═══ secrets.toml --- # 🔏 SQL 資料庫帳號、密碼、連線位置、連接埠、資料庫名稱。
+║
+╠═══ .venv
+║
+╠═══ docs/
+║    ╠═══ README_dev.md --- 開發步驟教學
+║    ╚═══ streamlit介紹.txt --- streamlit語法
+║
+╠═══ pages/
+║    ╠═══ (1_📊_Dashboard.py) --- 📈 第二頁：放 Power BI 或數據圖表，()代表未設，1_代表順序，實際上會隱藏前面
+║    ╚═══ (2_🛢️_SQL_Query.py) --- 🛢️ 第三頁：放 SQL 資料庫互動
+║
+╠═══ src/
+║    ╚═══ proj_gpu/
+║         ╠═══ __pycache__/       --- 垃圾暫存檔，無視
+║         ╠═══ __init__.py        --- 初始檔，無視
+║         ╠═══ (db_connect_db.py) --- 連接db用的程式
+║         ╠═══ (db_query.py)      --- select語法的程式
+║         ╠═══ clear.py           --- 清除螢幕的魔法
+║         ╚═══ templates.py       --- 🎨 專門放你的網頁公共樣板（如頁首、頁尾）
+║
+╠═══ static/
+║    ╠═══ css/
+║    ║    ╚═══ style.css   --- css檔案(應該用不到)
+║    ║
+║    ╠═══ images/
+║    ║    ╚═══ (image.jpg) --- 各式圖片檔位置
+║    ║
+║    ╚═══ js/
+║         ╚═══ (script.js) --- javascript檔案(應該用不到)
+║
+╠═══ .gitignore      --- 不要上傳的東西
+╠═══ .python-version --- python版本
+╠═══ 讀我(main).txt  --- 架構圖
+╠═══ app.py          --- 🏠 真正的首頁 / 網站大門
+╠═══ pyproject.toml  --- uv設定檔、安裝了什麼套件
+╠═══ README.md
+╚═══ uv.lock         --- 安裝streamlit會自動產生的檔案
+
+
+
+proj_gpu(web)
+║
+╠═══ main.html
+║
+╚═══ 讀我(web).txt
+
+
+
+
+
+╔═══╦═══╗
+║   ║   ║
+╠═══╬═══╣
+║   ║   ║
+╚═══╩═══╝

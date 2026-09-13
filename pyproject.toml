@@ -1,0 +1,27 @@
+[project]
+name = "proj-gpu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rt7979", email = "zz9771@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mariadb>=1.1.14",
+    "pymysql>=1.2.0",
+    "sqlalchemy>=2.0.52",
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+proj-gpu = "proj_gpu:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "myapp",
+]
