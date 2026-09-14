@@ -114,11 +114,11 @@ def extract_category_records(page: str, product: str) -> list[dict[str, str]]:
     return records
 
 def process_and_append_to_csv(records: list[dict[str, str]], output: Path) -> None:
-    """將單個顯卡的原始紀錄進行週抽樣，並即時追加寫入 CSV"""
+    """將單個顯卡的原始紀錄進行特定日期（1, 8, 15, 23日）抽樣。若無資料則嘗試順延一天，並即時寫入 CSV"""
     if not records:
         return
         
-    columns = ["顯卡型號", "日期(以週為單位)", "最低價格", "最高價格", "平均價格"]
+    columns = ["顯卡型號", "報告日期", "最低價格", "最高價格", "平均價格"]
     df = pd.DataFrame(records)
     df["date"] = pd.to_datetime(df["date"])
     df["price"] = pd.to_numeric(df["price"])
@@ -129,17 +129,46 @@ def process_and_append_to_csv(records: list[dict[str, str]], output: Path) -> No
             pivoted[col] = None
 
     pivoted = pivoted.rename(columns={"product": "顯卡型號", "min": "最低價格", "max": "最高價格", "avg": "平均價格"})
-    pivoted["日期(以週為單位)"] = pivoted["date"].dt.to_period("W-SUN").dt.start_time
-    weekly = pivoted.groupby(["顯卡型號", "日期(以週為單位)"], as_index=False).first()
-    weekly = weekly[columns]
     
-    # 格式化日期為字串，方便 CSV 儲存
-    weekly["日期(以週為單位)"] = weekly["日期(以週為單位)"].dt.strftime("%Y-%m-%d")
+    # === 🚀 核心修改：目標日無資料時，自動順延一天 ===
+    # 建立每個月的年月標籤 (例如 "2023-05")，方便分組處理
+    pivoted["year_month"] = pivoted["date"].dt.to_period("M")
+    
+    # 定義我們的首選目標日（1, 8, 15, 23）
+    target_days = [1, 8, 15, 23]
+    sampled_rows = []
+
+    # 按照「顯示卡型號」與「各個月份」分組進行精準篩選
+    for (prod_name, ym), group in pivoted.groupby(["顯卡型號", "year_month"]):
+        # 建立該月已有的日期與資料橫列對照表
+        day_map = {row["date"].day: row for _, row in group.iterrows()}
+        
+        for target in target_days:
+            # 1. 優先檢查首選目標日（例如 8 日）
+            if target in day_map:
+                sampled_rows.append(day_map[target])
+            # 2. 若首選日沒有，嘗試順延下一天（例如 9 日）
+            elif (target + 1) in day_map:
+                sampled_rows.append(day_map[target + 1])
+            # 3. 兩天都沒有，則此區間視為缺失，留待事後人工補齊
+            else:
+                continue
+
+    if not sampled_rows:
+        return
+
+    monthly_sampled = pd.DataFrame(sampled_rows)
+    
+    # 將實際抓到的日期格式化為字串，寫入「報告日期」欄位
+    monthly_sampled["報告日期"] = monthly_sampled["date"].dt.strftime("%Y-%m-%d")
+    
+    # 格式化輸出
+    monthly_sampled = monthly_sampled[columns]
+    # ===================================================
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    # 如果檔案不存在，寫入 Header；如果已存在，則不寫 Header 直接追加 (mode='a')
     file_exists = output.exists() and output.stat().st_size > 0
-    weekly.to_csv(output, mode='a', index=False, header=not file_exists, encoding="utf-8-sig")
+    monthly_sampled.to_csv(output, mode='a', index=False, header=not file_exists, encoding="utf-8-sig")
 
 def post_clean_csv(output: Path) -> None:
     """任務完全結束或中斷時，對 CSV 進行全域去重與重新排序"""
@@ -147,22 +176,20 @@ def post_clean_csv(output: Path) -> None:
         return
     print("正在對 CSV 檔案進行最終去重與排序優化...")
     df = pd.read_csv(output, encoding="utf-8-sig")
-    # 根據顯卡型號與週日期去重，保留最新寫入的資料
-    df = df.drop_duplicates(subset=["顯卡型號", "日期(以週為單位)"], keep='last')
-    df = df.sort_values(by=["顯卡型號", "日期(以週為單位)"]).reset_index(drop=True)
+    df = df.drop_duplicates(subset=["顯卡型號", "報告日期"], keep='last')
+    df = df.sort_values(by=["顯卡型號", "報告日期"]).reset_index(drop=True)
     df.to_csv(output, index=False, encoding="utf-8-sig")
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Parse Pangoly VGA price trends with resume capability.")
+    parser = argparse.ArgumentParser(description="Parse Pangoly VGA price trends with flexible monthly sampling.")
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("data/weekly_vga_prices.csv"),
+        default=Path("data/monthly_sampled_vga_prices.csv"),
     )
     args = parser.parse_args()
 
-    # 【斷點續傳機制 1】載入既有的進度
     completed_products = set()
     if args.output.exists() and args.output.stat().st_size > 0:
         try:
@@ -185,7 +212,6 @@ def main() -> None:
         print("未能在總覽頁面解析出任何顯卡型號，請確認總覽頁網址是否正確。")
         return
 
-    # 過濾掉已經抓過的型號
     todo_categories = [(slug, prod) for slug, prod in categories if prod not in completed_products]
     total_all = len(categories)
     total_todo = len(todo_categories)
@@ -204,7 +230,7 @@ def main() -> None:
     try:
         for i, (slug, product) in enumerate(todo_categories, 1):
             safe_slug = quote(slug)
-            endpoint = f"https://pangoly.com/data/{safe_slug}"
+            endpoint = f"https://pangoly.com{safe_slug}"
             print(f"[{i}/{total_todo}] 正在下載 {product} (代號: {slug}) ...")
             
             try:
@@ -212,9 +238,7 @@ def main() -> None:
                 new_records = extract_category_records(json_data, product)
                 
                 if new_records:
-                    # 篩選 10 年內資料
                     new_records = [r for r in new_records if r["date"] >= cutoff]
-                    # 【斷點續傳機制 2】一抓完，立刻將這款顯卡的資料追加進 CSV 落地保存
                     process_and_append_to_csv(new_records, args.output)
                     consecutive_failures = 0
                 else:
@@ -234,7 +258,6 @@ def main() -> None:
     except KeyboardInterrupt:
         print("\n🛑 偵測到手動中斷（Ctrl+C）。正在安全儲存進度...")
 
-    # 最後進行整體的去重與格式整理
     post_clean_csv(args.output)
     print("🏁 程式執行完畢。隨時可重新執行以接續未完成的進度。")
 
