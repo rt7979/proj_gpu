@@ -1,0 +1,14 @@
+設定好上面的 secrets.toml 後，你就可以在 Python 程式碼中直接建立連線並查詢資料：
+
+
+
+mport streamlit as st
+
+# 自動讀取 secrets.toml 中的 [connections.mysql] 設定
+conn = st.connection("mysql", type="sql")
+
+# 執行 SQL 查詢並轉為 Pandas DataFrame
+df = conn.query("SELECT * FROM your_table_name;", ttl=60)
+
+# 在網頁上顯示資料
+st.dataframe(df)

@@ -1,0 +1,23 @@
+設定好上面的 secrets.toml 的API KEY後，你就可以在 Python 程式碼中直接使用AI：
+
+
+
+
+import streamlit as st
+from openai import OpenAI
+
+# 1. 讀取 MariaDB 資料庫
+conn = st.connection("mysql", type="sql")
+df = conn.query("SELECT * FROM my_table LIMIT 5;")
+
+# 2. 自動讀取 secrets.toml 裡的 OPENAI_API_KEY
+# Streamlit 非常聰明，只要名稱叫 OPENAI_API_KEY，官方套件會自動偵測並帶入
+client = OpenAI() 
+
+# 3. 呼叫 AI 給予回應
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "請幫我分析這筆資料"}]
+)
+
+st.write(response.choices[0].message.content)

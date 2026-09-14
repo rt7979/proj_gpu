@@ -6,7 +6,7 @@
 .streamlit/secrets.toml
 
 # 🚫 2. 自己看的文件資料夾（如果不想讓別人看到才加這行，想當雲端備份就不要加）
-docs/
+# docs/
 
 # 📦 3. Python 產生的編譯垃圾暫存檔（uv 有時會自動加，手動補強）
 __pycache__/
