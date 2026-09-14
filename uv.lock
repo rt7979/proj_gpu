@@ -492,6 +492,7 @@ source = { editable = "." }
 dependencies = [
     { name = "mariadb" },
     { name = "mysqlclient" },
+    { name = "pandas" },
     { name = "pymysql" },
     { name = "sqlalchemy" },
     { name = "streamlit" },
@@ -501,6 +502,7 @@ dependencies = [
 requires-dist = [
     { name = "mariadb", specifier = ">=1.1.14" },
     { name = "mysqlclient", specifier = ">=2.2.8" },
+    { name = "pandas", specifier = ">=2.2.0" },
     { name = "pymysql", specifier = ">=1.2.0" },
     { name = "sqlalchemy", specifier = ">=2.0.52" },
     { name = "streamlit", specifier = ">=1.63.0" },
