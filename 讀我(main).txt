@@ -22,6 +22,9 @@ proj_gpu(main)
 ║
 ╠═══ .venv
 ║
+╠═══ data/
+║    ╚═══ (xxx.csv) --- 爬蟲結果存進csv
+║
 ╠═══ docs/
 ║    ╠═══ README_dev.md --- 開發步驟教學
 ║    ╚═══ streamlit介紹.txt --- streamlit語法
@@ -33,6 +36,12 @@ proj_gpu(main)
 ╠═══ src/
 ║    ╚═══ proj_gpu/
 ║         ╠═══ __pycache__/       --- 垃圾暫存檔，無視
+║         ║
+║         ╠═══ gpu_parser/        --- 專門放爬蟲程式
+║         ║    ╠═══ __init__.py   --- 初始檔，可以無視
+║         ║    ╠═══ 說明檔.txt     --- 這個文件的說明檔(以後會刪)
+║         ║    ╚═══ parser.py      --- 爬蟲程式
+║         ║
 ║         ╠═══ __init__.py        --- 初始檔，無視
 ║         ╠═══ (db_connect_db.py) --- 連接db用的程式
 ║         ╠═══ (db_query.py)      --- select語法的程式

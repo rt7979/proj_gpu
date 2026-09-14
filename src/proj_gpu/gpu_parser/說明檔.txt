@@ -1,0 +1,44 @@
+gpu_parser裡面預設這種情況
+
+gpu_parser有三支程式
+__init__.py     預設裡面沒任何內容
+aaa.py          預設裡面有graph這個函數
+bbb.py          預設裡面有tree這個函數
+
+
+
+
+
+
+
+==============================
+
+__init__.py 內容：完全空白的用法
+
+==============================
+
+其他檔案要引用aaa.py和bbb.py時
+必須使用完整路徑
+from proj_gpu.gpu_parser.aaa import graph
+from proj_gpu.gpu_parser.bbb import tree
+
+
+
+
+
+
+
+==============================
+
+__init__.py 內容：有寫入路徑時
+
+==============================
+
+
+__init__.py
+from aaa import graph
+from bbb import tree
+
+當 __init__.py 事先寫入路徑
+且其他檔案要引用aaa.py和bbb.py時
+from proj_gpu.gpu_parser import graph, tree
