@@ -3,6 +3,16 @@
 Pangoly currently documents that price trends cover the latest five years.
 The parser accepts a ten-year window, but preserves only records returned by
 the website instead of fabricating values for unavailable dates.
+
+網站： "https://pangoly.com/en/price-trends/vga"
+目標： 爬蟲所有顯卡歷史價格，一周一筆
+欄位： [顯卡型號, 日期(以週為單位), 最低價格,最高價格,平均價格]
+
+執行方法：uv run python src/proj_gpu/gpu_parser/VGA_parser_week_final.py
+或直接執行即可
+
+初始版，不能用
+
 """
 
 from __future__ import annotations

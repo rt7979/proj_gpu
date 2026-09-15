@@ -9,47 +9,106 @@ the website instead of fabricating values for unavailable dates.
 目標： 爬蟲所有顯卡歷史價格，一周一筆
 欄位： [顯卡型號, 日期(以週為單位), 最低價格,最高價格,平均價格]
 
+執行方法：uv run python src/proj_gpu/gpu_parser/VGA_parser_week_final.py
+或直接執行即可
+
 """
 
 
 from __future__ import annotations
 
 import argparse
+from html import unescape
 import json
 import re
 import time
 from datetime import date, timedelta, datetime, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
 from urllib.parse import quote
-from urllib.error import URLError
 import pandas as pd
+from playwright.sync_api import sync_playwright
+from playwright_stealth import Stealth
 
 BASE_URL = "https://pangoly.com"
-TREND_INDEX_URL = "https://pangoly.com"
+TREND_INDEX_URL = f"{BASE_URL}/en/price-trends/vga"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-def download_page(url: str, retries: int = 3, backoff: float = 15.0) -> str:
-    request = Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "application/json, text/html, text/javascript, */*; q=0.01",
-            "X-Requested-With": "XMLHttpRequest",
-            "Referer": TREND_INDEX_URL,
-        },
-    )
-    
-    for attempt in range(1, retries + 1):
-        try:
-            with urlopen(request, timeout=15) as response:
-                return response.read().decode("utf-8", errors="replace")
-        except (URLError, Exception) as e:
-            if attempt == retries:
-                raise e
-            print(f" ⚠️ 網路連線異常或遭阻擋 ({e})。將強制靜置等待 {backoff} 秒後，進行第 {attempt}/{retries} 次重試...")
-            time.sleep(backoff)
-    return ""
+
+class PangolyBrowser:
+    def __init__(self, headless: bool = True) -> None:
+        self.headless = headless
+        self.playwright = sync_playwright().start()
+        self.browser = self.playwright.chromium.launch(headless=headless)
+        self.context = self.browser.new_context(user_agent=USER_AGENT)
+        Stealth(navigator_user_agent_override=USER_AGENT).apply_stealth_sync(self.context)
+        self.page = self.context.new_page()
+
+    def download_page(self, url: str, retries: int = 3, backoff: float = 15.0) -> str:
+        for attempt in range(1, retries + 1):
+            try:
+                response = self.page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+                if response is None or response.status >= 400:
+                    status = response.status if response is not None else "no response"
+                    if status == 403 and not self.headless:
+                        print(" ⚠️ Pangoly 要求 Cloudflare 驗證，請在開啟的 Chromium 視窗完成驗證。")
+                        input("完成驗證後按 Enter 繼續...")
+                        response = self.page.reload(wait_until="domcontentloaded", timeout=30_000)
+                        if response is not None and response.status < 400:
+                            self.page.wait_for_timeout(1_000)
+                            return response.text()
+                    raise RuntimeError(f"HTTP {status}")
+                self.page.wait_for_timeout(1_000)
+                return response.text()
+            except Exception as error:
+                if attempt == retries:
+                    raise error
+                print(f" ⚠️ 網路連線異常或遭阻擋 ({error})。等待 {backoff} 秒後重試...")
+                time.sleep(backoff)
+        return ""
+
+    def close(self) -> None:
+        self.browser.close()
+        self.playwright.stop()
+
+    def download_category_data(self, slug: str, retries: int = 3) -> str:
+        model_url = f"{TREND_INDEX_URL}/{quote(slug)}"
+        endpoint = f"{BASE_URL}/en/price-trends/data/vga/{quote(slug)}"
+
+        for attempt in range(1, retries + 1):
+            responses = []
+            context = self.browser.new_context(user_agent=USER_AGENT)
+            Stealth(navigator_user_agent_override=USER_AGENT).apply_stealth_sync(context)
+            page = context.new_page()
+
+            def capture(response) -> None:
+                if response.url.rstrip("/") == endpoint.rstrip("/"):
+                    responses.append(response)
+
+            page.on("response", capture)
+            try:
+                page_response = page.goto(model_url, wait_until="domcontentloaded", timeout=30_000)
+                page.wait_for_timeout(2_000)
+            finally:
+                page.remove_listener("response", capture)
+
+            try:
+                if responses and responses[-1].status < 400:
+                    return responses[-1].text()
+
+                status = page_response.status if page_response is not None else "no response"
+                if status == 403 and not self.headless:
+                    print(" ⚠️ Pangoly 要求 Cloudflare 驗證，請在開啟的 Chromium 視窗完成驗證。")
+                    input("完成驗證後按 Enter 繼續...")
+                    continue
+
+                if attempt < retries:
+                    print(f" ⚠️ 型號頁或價格資料暫時無法取得 (HTTP {status})，稍後重試...")
+                    time.sleep(5)
+            finally:
+                page.close()
+                context.close()
+
+        raise RuntimeError(f"無法取得 {slug} 的價格 JSON (HTTP {status})")
 
 def find_categories_by_regex(html_content: str) -> list[tuple[str, str]]:
     pattern = r'href=["\'](?:https://pangoly\.com)?/en/price-trends/vga/([a-zA-Z0-9-]+)["\'][^>]*>(.*?)<\/a>'
@@ -64,8 +123,10 @@ def find_categories_by_regex(html_content: str) -> list[tuple[str, str]]:
             continue
             
         clean_name = re.sub(r'<[^>]+>', '', raw_name)
-        clean_name = " ".join(clean_name.split())
-        clean_name = re.split(r"\s+Price\s+|\s+[+-]\d|\s+\$", clean_name, flags=re.IGNORECASE).strip()
+        clean_name = " ".join(unescape(clean_name).split())
+        clean_name = re.split(
+            r"\s+Price\s+|\s+[+-]\d|\s+\$", clean_name, maxsplit=1, flags=re.IGNORECASE
+        )[0].strip()
         
         if clean_name and slug not in ["", "data"]:
             categories.append((slug, clean_name))
@@ -99,7 +160,10 @@ def extract_category_records(page: str, product: str) -> list[dict[str, str]]:
             if not isinstance(point, list) or len(point) < 2:
                 continue
             timestamp, price = point[:2]
-            record_date = datetime.fromtimestamp(float(timestamp) / 1000, tz=timezone.utc).date().isoformat()
+            try:
+                record_date = datetime.fromtimestamp(float(timestamp) / 1000, tz=timezone.utc).date().isoformat()
+            except (TypeError, ValueError, OverflowError, OSError):
+                continue
             parsed_price = parse_price(price)
             if parsed_price is None:
                 continue
@@ -188,6 +252,20 @@ def main() -> None:
         type=Path,
         default=Path("data/monthly_sampled_vga_prices.csv"),
     )
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--headed",
+        dest="headless",
+        action="store_false",
+        help="顯示 Chromium 視窗，讓使用者完成 Pangoly 的 Cloudflare 驗證（預設）。",
+    )
+    mode.add_argument(
+        "--headless",
+        dest="headless",
+        action="store_true",
+        help="不顯示瀏覽器；若 Pangoly 要求驗證，抓取會被拒絕。",
+    )
+    parser.set_defaults(headless=False)
     args = parser.parse_args()
 
     completed_products = set()
@@ -200,16 +278,19 @@ def main() -> None:
         except Exception as e:
             print(f"⚠️ 無法讀取既有 CSV 檔案進度 ({e})，將重新開始抓取。")
 
+    browser = PangolyBrowser(headless=args.headless)
     print(f"正在從總覽頁抓取所有顯示卡型號...")
     try:
-        index_page = download_page(TREND_INDEX_URL)
+        index_page = browser.download_page(TREND_INDEX_URL)
         categories = find_categories_by_regex(index_page)
     except Exception as e:
         print(f"無法讀取顯示卡總覽頁面: {e}")
+        browser.close()
         return
 
     if not categories:
         print("未能在總覽頁面解析出任何顯卡型號，請確認總覽頁網址是否正確。")
+        browser.close()
         return
 
     todo_categories = [(slug, prod) for slug, prod in categories if prod not in completed_products]
@@ -220,21 +301,36 @@ def main() -> None:
     
     if total_todo == 0:
         print("🎉 所有型號皆已下載完成！")
+        browser.close()
         post_clean_csv(args.output)
         return
 
     consecutive_failures = 0
     MAX_ALLOWED_FAILURES = 2
-    cutoff = (date.today() - timedelta(days=365 * 10)).isoformat()
+    cutoff = (date.today() - timedelta(days=365 * 10)).isoformat()  # 設定開始時間，10年前
+
+    """
+    # ************************************
+    #
+    # ********** 自行設定開始時間 **********
+    #
+    # ************************************
+    #
+    # === 🚀 核心修改：動態調整開始時間（自動取得當月 1 日） ===
+    today = date.today()
+    # 建立當月 1 日的日期物件 (例如 2026-09-01)
+    current_month_start = date(today.year, today.month, 1)
+    cutoff = current_month_start.isoformat()
+    
+    """
 
     try:
         for i, (slug, product) in enumerate(todo_categories, 1):
             safe_slug = quote(slug)
-            endpoint = f"https://pangoly.com{safe_slug}"
             print(f"[{i}/{total_todo}] 正在下載 {product} (代號: {slug}) ...")
             
             try:
-                json_data = download_page(endpoint)
+                json_data = browser.download_category_data(safe_slug)
                 new_records = extract_category_records(json_data, product)
                 
                 if new_records:
@@ -258,6 +354,7 @@ def main() -> None:
     except KeyboardInterrupt:
         print("\n🛑 偵測到手動中斷（Ctrl+C）。正在安全儲存進度...")
 
+    browser.close()
     post_clean_csv(args.output)
     print("🏁 程式執行完畢。隨時可重新執行以接續未完成的進度。")
 
