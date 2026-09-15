@@ -8,8 +8,11 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "cloudscraper>=1.2.71",
     "mariadb>=1.1.14",
     "mysqlclient>=2.2.8",
+    "pandas>=2.2.0",
     "pymysql>=1.2.0",
     "sqlalchemy>=2.0.52",
     "streamlit>=1.63.0",
