@@ -1,0 +1,76 @@
+產生時間維度表
+CREATE TABLE dim_date(
+    date_key INT PRIMARY KEY,               -- PK，20170101
+    full_date DATE NOT NULL,                -- 標準格式，2017-01-01
+    year INT NOT NULL,                      -- 年份，2017
+    year_label NVARCHAR(10) NOT NULL,       -- 中文的年，2017年
+    quarter INT NOT NULL,                   -- 季度，1~4
+    quarter_label NVARCHAR(5) NOT NULL,     -- 季度標籤，Q3
+    q_of_year NVARCHAR(10) NOT NULL,        -- 某年某季，2017-Q3
+    q_of_year_label NVARCHAR(15) NOT NULL,  -- 中文的某年某季，2017年Q3
+    month INT NOT NULL,                     -- 月份，1~12
+    month_label NVARCHAR(5) NOT NULL,       -- 中文的月，3月
+    m_of_year NVARCHAR(15) NOT NULL,        -- 某年某月，2017-03
+    m_of_year_label NVARCHAR(15) NOT NULL,  -- 中文的某年某月，2017年3月
+    day INT NOT NULL,                       -- 每月第幾天，1~31
+    day_of_year INT NOT NULL,               -- 一年的第幾天，1~366
+    week INT NOT NULL,                      -- 星期幾，1~7
+    day_name VARCHAR(10) NOT NULL,          -- 英文的星期，Thursday
+    week_label NVARCHAR(5) NOT NULL,        -- 中文的星期，星期四
+    week_of_year INT NOT NULL,              -- 一年的第幾周，1~54
+    is_weekend BOOLEAN NOT NULL             -- 是否周末，1/0 (SQL Server 請改 BIT)
+);
+
+
+
+
+
+
+
+
+
+
+表格內容
+
+-- 1. 放大 MariaDB 的遞迴上限，確保能順利跑完這 5 年多的資料
+SET SESSION max_recursive_iterations = 10000;
+
+-- 2. 一鍵生成並插入 2021-01-01 到 2026-09-30 的所有資料
+INSERT INTO dim_date
+WITH RECURSIVE seq AS (
+    -- 設定你的起始日期
+    SELECT '2021-01-01' AS ts_date
+    UNION ALL
+    -- 設定你的結束日期
+    SELECT ts_date + INTERVAL 1 DAY FROM seq WHERE ts_date < '2026-09-30'
+)
+SELECT 
+    CAST(DATE_FORMAT(ts_date, '%Y%m%d') AS UNSIGNED) AS date_key,                -- 產生你的 PK (e.g., 20210101)
+    ts_date AS full_date,                                                        -- 2021-01-01
+    YEAR(ts_date) AS year,                                                       -- 2021
+    CONCAT(YEAR(ts_date), '年') AS year_label,                                   -- 2021年
+    QUARTER(ts_date) AS quarter,                                                 -- 1
+    CONCAT('Q', QUARTER(ts_date)) AS quarter_label,                              -- Q1
+    CONCAT(YEAR(ts_date), '-Q', QUARTER(ts_date)) AS q_of_year,                  -- 2021-Q1
+    CONCAT(YEAR(ts_date), '年Q', QUARTER(ts_date)) AS q_of_year_label,            -- 2021年Q1
+    MONTH(ts_date) AS month,                                                     -- 1
+    CONCAT(MONTH(ts_date), '月') AS month_label,                                  -- 1月
+    DATE_FORMAT(ts_date, '%Y-%m') AS m_of_year,                                  -- 2021-01
+    CONCAT(YEAR(ts_date), '年', MONTH(ts_date), '月') AS m_of_year_label,            -- 2021年1月
+    DAY(ts_date) AS day,                                                         -- 1
+    DAYOFYEAR(ts_date) AS day_of_year,                                           -- 1
+    WEEKDAY(ts_date) + 1 AS week,                                                -- 星期幾數字 (1=週一...7=週日)
+    DAYNAME(ts_date) AS day_name,                                                -- Friday
+    CASE WEEKDAY(ts_date)                                                        -- 中文星期標籤
+        WHEN 0 THEN '星期一' WHEN 1 THEN '星期二' WHEN 2 THEN '星期三'
+        WHEN 3 THEN '星期四' WHEN 4 THEN '星期五' WHEN 5 THEN '星期六'
+        WHEN 6 THEN '星期日'
+    END AS week_label,
+    WEEK(ts_date, 3) AS week_of_year,                                            -- 一年的第幾週 (ISO 標準)
+    IF(WEEKDAY(ts_date) IN (5, 6), 1, 0) AS is_weekend                           -- 是否週末 (1/0)
+FROM seq;
+
+
+
+
+

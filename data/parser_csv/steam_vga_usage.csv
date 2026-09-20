@@ -1,0 +1,502 @@
+﻿month,gpu,usage_percent,category,source_url
+2026-04,NVIDIA GeForce RTX 3060,4.15,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3060,4.02,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3060,3.88,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3060,3.88,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3060,3.92,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4060 Laptop GPU,3.98,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4060 Laptop GPU,3.99,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4060 Laptop GPU,4.02,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4060 Laptop GPU,3.64,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4060 Laptop GPU,3.84,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5070,3.01,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5070,3.09,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5070,3.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5070,3.62,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5070,3.77,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4060,4.05,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4060,3.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4060,3.65,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4060,3.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4060,3.60,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3050,3.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3050,3.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3050,3.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3050,3.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3050,3.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5060,2.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5060,2.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5060,2.81,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5060,3.03,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5060,3.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5060 Laptop GPU,1.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5060 Laptop GPU,1.83,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5060 Laptop GPU,2.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5060 Laptop GPU,2.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5060 Laptop GPU,2.66,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5060 Ti,1.90,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5060 Ti,2.06,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5060 Ti,2.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5060 Ti,2.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5060 Ti,2.55,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1650,2.70,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1650,2.70,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1650,2.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1650,2.61,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1650,2.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4060 Ti,2.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4060 Ti,2.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4060 Ti,2.41,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4060 Ti,2.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4060 Ti,2.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3060 Ti,2.42,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3060 Ti,2.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3060 Ti,2.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3060 Ti,2.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3060 Ti,2.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3070,2.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3070,2.08,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3070,2.02,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3070,2.05,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3070,1.99,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3060 Laptop GPU,1.97,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3060 Laptop GPU,1.97,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3060 Laptop GPU,1.95,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3060 Laptop GPU,1.81,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3060 Laptop GPU,1.85,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5070 Ti,1.70,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5070 Ti,1.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5070 Ti,1.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5070 Ti,1.78,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5070 Ti,1.82,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4070,1.87,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4070,1.81,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4070,1.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4070,1.78,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4070,1.78,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel Iris Xe Graphics,1.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel Iris Xe Graphics,1.79,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel Iris Xe Graphics,1.82,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel Iris Xe Graphics,1.85,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel Iris Xe Graphics,1.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4050 Laptop GPU,1.64,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4050 Laptop GPU,1.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4050 Laptop GPU,1.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4050 Laptop GPU,1.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4050 Laptop GPU,1.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon Graphics,1.80,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon Graphics,1.89,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon Graphics,1.80,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon Graphics,1.84,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon Graphics,1.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5080,1.44,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5080,1.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5080,1.55,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5080,1.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5080,1.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2060,1.83,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2060,1.77,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2060,1.72,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2060,1.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2060,1.65,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1060,1.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1060,1.59,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1060,1.54,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1060,1.53,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1060,1.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4070 SUPER,1.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4070 SUPER,1.52,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4070 SUPER,1.53,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4070 SUPER,1.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4070 SUPER,1.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1660 SUPER,1.53,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1660 SUPER,1.52,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1660 SUPER,1.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1660 SUPER,1.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1660 SUPER,1.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 9070 XT,1.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 9070 XT,1.35,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 9070 XT,1.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 9070 XT,1.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3080,1.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3080,1.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3080,1.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3080,1.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3080,1.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel(R) UHD Graphics,1.15,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel(R) UHD Graphics,1.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel(R) UHD Graphics,1.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel(R) UHD Graphics,1.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel(R) UHD Graphics,1.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1050 Ti,1.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1050 Ti,1.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1050 Ti,1.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1050 Ti,1.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1050 Ti,1.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4070 Laptop GPU,0.99,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4070 Laptop GPU,1.01,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4070 Laptop GPU,0.98,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4070 Laptop GPU,0.94,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4070 Laptop GPU,0.96,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4070 Ti,1.01,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4070 Ti,0.98,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4070 Ti,0.95,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4070 Ti,0.91,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4070 Ti,0.92,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon(TM) Graphics,2.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon(TM) Graphics,0.90,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon(TM) Graphics,0.91,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon(TM) Graphics,0.94,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon(TM) Graphics,0.92,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3070 Ti,1.01,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3070 Ti,0.97,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3070 Ti,0.93,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3070 Ti,0.93,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3070 Ti,0.91,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1660 Ti,0.94,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1660 Ti,0.95,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1660 Ti,0.91,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1660 Ti,0.91,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1660 Ti,0.87,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6600,0.89,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6600,0.90,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6600,0.88,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6600,0.85,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6600,0.83,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 9060 XT,0.72,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 9060 XT,0.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 9060 XT,0.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 9060 XT,0.80,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2060 SUPER,0.83,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2060 SUPER,0.81,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2060 SUPER,0.78,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2060 SUPER,0.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2060 SUPER,0.75,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4070 Ti SUPER,0.82,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4070 Ti SUPER,0.78,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4070 Ti SUPER,0.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4070 Ti SUPER,0.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4070 Ti SUPER,0.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4090,0.77,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4090,0.76,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4090,0.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4090,0.72,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4090,0.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel UHD Graphics,0.71,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel UHD Graphics,0.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel UHD Graphics,0.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel UHD Graphics,0.75,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel UHD Graphics,0.70,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.60,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.70,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5070 Laptop GPU,0.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5070 Laptop GPU,0.52,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5070 Laptop GPU,0.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5070 Laptop GPU,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5070 Laptop GPU,0.68,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2070 SUPER,0.74,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2070 SUPER,0.73,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2070 SUPER,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2070 SUPER,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2070 SUPER,0.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4080,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4080,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4080,0.65,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4080,0.68,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4080,0.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4080 SUPER,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4080 SUPER,0.67,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4080 SUPER,0.65,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4080 SUPER,0.64,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4080 SUPER,0.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.68,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.69,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.66,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.65,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 7800 XT,1.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 7800 XT,0.68,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 7800 XT,0.66,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 7800 XT,0.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 7800 XT,0.63,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1070,0.66,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1070,0.66,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1070,0.62,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1070,0.62,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1070,0.61,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 580 2048SP,0.60,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 580 2048SP,0.59,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 580 2048SP,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 580 2048SP,0.60,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 580 2048SP,0.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 580,0.56,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 580,0.60,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 580,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 580,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 580,0.56,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6700 XT,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6700 XT,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6700 XT,0.56,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6700 XT,0.56,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6700 XT,0.55,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1050,0.59,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1050,0.59,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1050,0.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1050,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1050,0.54,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3080 Ti,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3080 Ti,0.58,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3080 Ti,0.55,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3080 Ti,0.55,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3080 Ti,0.54,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 5700 XT,0.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 5700 XT,0.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 5700 XT,0.56,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 5700 XT,0.57,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 5700 XT,0.54,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 7600,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 7600,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 7600,0.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 7600,0.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2050,0.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2050,0.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2050,0.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2050,0.49,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2050,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel(R) Graphics,0.34,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel(R) Graphics,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel(R) Graphics,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel(R) Graphics,0.44,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel(R) Graphics,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon (TM) Graphics,0.44,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon (TM) Graphics,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon (TM) Graphics,0.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon (TM) Graphics,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon (TM) Graphics,0.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1660,0.51,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1660,0.50,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1660,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1660,0.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1660,0.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.34,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.41,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.44,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2070,0.51,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2070,0.47,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2070,0.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2070,0.44,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2070,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3070 Laptop GPU,0.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3070 Laptop GPU,0.46,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3070 Laptop GPU,0.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3070 Laptop GPU,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3070 Laptop GPU,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel UHD Graphics 620,0.42,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel UHD Graphics 620,0.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel UHD Graphics 620,0.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel UHD Graphics 620,0.48,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel UHD Graphics 620,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5090,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5090,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5090,0.42,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5090,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5090,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5050 Laptop GPU,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5050 Laptop GPU,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5050 Laptop GPU,0.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5050 Laptop GPU,0.35,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5050 Laptop GPU,0.42,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 7900 XTX,0.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 7900 XTX,0.45,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 7900 XTX,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 7900 XTX,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 7900 XTX,0.42,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1080,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1080,0.43,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1080,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1080,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1080,0.39,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1650 Ti,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1650 Ti,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1650 Ti,0.40,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1650 Ti,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1650 Ti,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3090,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3090,0.39,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3090,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3090,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3090,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3050 Laptop GPU,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3050 Laptop GPU,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3050 Laptop GPU,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3050 Laptop GPU,0.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3050 Laptop GPU,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 570,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 570,0.38,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 570,0.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 570,0.37,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 570,0.35,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 7900 XT,0.36,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 7900 XT,0.34,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 7900 XT,0.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 7900 XT,0.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1080 Ti,0.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1080 Ti,0.32,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1080 Ti,0.31,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1080 Ti,0.31,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1080 Ti,0.31,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon Vega 8 Graphics,0.31,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon Vega 8 Graphics,0.32,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon Vega 8 Graphics,0.32,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon Vega 8 Graphics,0.33,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon Vega 8 Graphics,0.31,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon 780M Graphics,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon 780M Graphics,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon 780M Graphics,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon 780M Graphics,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon 780M Graphics,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel Arc Graphics,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel Arc Graphics,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel Arc Graphics,0.30,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel Arc Graphics,0.30,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel Arc Graphics,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6600 XT,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6600 XT,0.30,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6600 XT,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6600 XT,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6600 XT,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1650 SUPER,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1650 SUPER,0.30,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1650 SUPER,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1650 SUPER,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1650 SUPER,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel UHD Graphics 630,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel UHD Graphics 630,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel UHD Graphics 630,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel UHD Graphics 630,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel UHD Graphics 630,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6650 XT,0.28,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6650 XT,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6650 XT,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6650 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6650 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2080 SUPER,0.29,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2080 SUPER,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2080 SUPER,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2080 SUPER,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2080 SUPER,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6750 XT,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6750 XT,0.27,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6750 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6750 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6750 XT,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 7700 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 7700 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 7700 XT,0.26,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 7700 XT,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 7700 XT,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6800 XT,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6800 XT,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6800 XT,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6800 XT,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6800 XT,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 5050,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 5050,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 5050,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 5050,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 5050,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2080 Ti,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2080 Ti,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2080 Ti,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2080 Ti,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2080 Ti,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 2080,0.25,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 2080,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 2080,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 2080,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 2080,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 3070 Ti Laptop GPU,0.24,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 3070 Ti Laptop GPU,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 3070 Ti Laptop GPU,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 3070 Ti Laptop GPU,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 3070 Ti Laptop GPU,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GT 1030,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GT 1030,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GT 1030,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GT 1030,0.23,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GT 1030,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 550,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 550,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 550,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 550,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 550,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 9070,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 9070,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 9070,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 9070,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 9070,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel HD Graphics 520,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel HD Graphics 520,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel HD Graphics 520,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel HD Graphics 520,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel HD Graphics 520,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 1070 Ti,0.22,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 1070 Ti,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 1070 Ti,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 1070 Ti,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 1070 Ti,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon Vega 3 Graphics,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon Vega 3 Graphics,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon Vega 3 Graphics,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon Vega 3 Graphics,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon Vega 3 Graphics,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel HD Graphics 620,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel HD Graphics 620,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel HD Graphics 620,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel HD Graphics 620,0.21,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel HD Graphics 620,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 750 Ti,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 750 Ti,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 750 Ti,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 750 Ti,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 750 Ti,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6500 XT,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6500 XT,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6500 XT,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6500 XT,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6500 XT,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 970,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 970,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 970,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 970,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 970,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce RTX 4080 Laptop GPU,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce RTX 4080 Laptop GPU,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce RTX 4080 Laptop GPU,0.19,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce RTX 4080 Laptop GPU,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce RTX 4080 Laptop GPU,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,Intel HD Graphics 4600,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,Intel HD Graphics 4600,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,Intel HD Graphics 4600,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,Intel HD Graphics 4600,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,Intel HD Graphics 4600,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GTX 960,0.20,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GTX 960,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GTX 960,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GTX 960,0.18,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GTX 960,0.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,AMD Radeon RX 6800,0.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,AMD Radeon RX 6800,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,AMD Radeon RX 6800,0.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,AMD Radeon RX 6800,0.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,AMD Radeon RX 6800,0.15,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-04,NVIDIA GeForce GT 730,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-05,NVIDIA GeForce GT 730,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-06,NVIDIA GeForce GT 730,0.16,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-07,NVIDIA GeForce GT 730,0.17,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english
+2026-08,NVIDIA GeForce GT 730,0.15,all_video_cards,https://store.steampowered.com/hwsurvey/videocard/?start_date=2016-09-04&end_date=2026-09-04&l=english

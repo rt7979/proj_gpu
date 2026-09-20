@@ -1,0 +1,12 @@
+monthly_sampled_vga_prices.csv		顯卡的每周歷史價格(最低、最高、平均價)
+MODELS2.csv				顯卡型號、出產日期、官方售價(SMRP)
+macro_inflation_and_hardware_costs.csv	科技與半導體巨頭的股價與大盤指數，(總體經濟通膨與硬體成本大數據)
+macro_inflation_and_hardware_costs_tw	台灣硬體零件通膨指數，(供應鏈成本與通膨指標)
+global_ai_and_tech_indicators.csv	顯卡與記憶體製造商的歷史股價資訊
+dim_date_table.csv			時間維度表
+
+
+
+https://www.kaggle.com/datasets/zoupet/hugging-face-models-trending?select=hf_datasets_snapshot.csv
+
+取得模型下載量，佐證高階顯卡需求量大
